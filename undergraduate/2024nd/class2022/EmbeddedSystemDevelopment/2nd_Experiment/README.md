@@ -52,7 +52,7 @@ Software: VirtualBox virtual machine, Ubuntu operating system.
 
 As shown in Figure Figure 2-1
 
-![](.\assets\图片1.png)
+![](assets/图片1.png)
 
 ③ Update directory easy to install Vim editor, GCC compiler, etc: `sudo apt update` 
 
@@ -64,7 +64,7 @@ As shown in Figure Figure 2-1
 
 ⑦ Use Vim to edit the source program, enter "`vi Hello.c`" in the terminal, start the Vi editor, and  enter the command-line mode.After starting, press the “i” key to enter the insertion mode. If the  "Insert" prompt appears on the lower left, the user can edit the text. Enter the `Hello.c `source code,  as shown in Figure Figure 2-2.
 
-![](.\assets\图片2.png)
+![](assets/图片2.png)
 
 Finally, press Esc to convert the insertion mode to command line mode, and enter the command "`:  wq`" to exit. 
 
@@ -72,7 +72,7 @@ Finally, press Esc to convert the insertion mode to command line mode, and enter
 
 ⑨ Run the program, enter the command under the terminal "`. / Hello` " to run. As shown in Figures 2 – 3.
 
-![](.\assets\图片3.png)
+![](assets/图片3.png)
 
 #### **（2）The use of Vi, Vim editors (refer to Section 2.2)**
 
@@ -99,17 +99,17 @@ Finally, press Esc to convert the insertion mode to command line mode, and enter
 
 It is mainly divided into four processes: preprocessing, compilation, compilation, and linking.
 
-![](.\assets\图片4.png)
+![](assets/图片4.png)
 
 **2**）. **GCC to compile the command**
 
 First create a hello.c file with Vi, type "`vi hello.c`", press “i” to enter the insertion mode, write the program, edit the save disk, the program source code is as follows:
 
-![](.\assets\图片5.png)
+![](assets/图片5.png)
 
 To compile this program, first enter "`gcc-o hello hello.c`" under the command line, and the GCC compiler generates an executable file, and then enter "`. / Hello`" You can see the output of the program.
 
-![](.\assets\图片6.png)
+![](assets/图片6.png)
 
 You can control the gcc compilation process with different gcc options to split the gcc compilation process
 
@@ -129,7 +129,7 @@ Only do the link operation, will. The o file is linked to generate the final exe
 
 `gcc -o hello hello.o`
 
-![](.\assets\图片7.png)
+![](assets/图片7.png)
 
 **3**）**.Common compilation options**
 
@@ -170,7 +170,7 @@ The header file directory is the current directory
 
 Use the following source code to use the GCC for error check, warning prompt.
 
-![](.\assets\图片8.png)
+![](assets/图片8.png)
 
 It is not difficult to find the following errors in the code:
 
@@ -182,11 +182,11 @@ It is not difficult to find the following errors in the code:
 
 When the GCC compiles the source code that does not meet the ANSI / ISOC language standard, with the "-pedantic" option, where the extended syntax is used generates a warning message.
 
-![](.\assets\图片9.png)
+![](assets/图片9.png)
 
 And“-Wall” enables the GCC to generate more warnings:
 
-![](.\assets\图片10.png)
+![](assets/图片10.png)
 
 ### **（4**）The use of the GDB basic commands
 
@@ -194,9 +194,9 @@ And“-Wall” enables the GCC to generate more warnings:
 
 2).Enter "`i`" to enter the insertion mode and type the following source code
 
-![](.\assets\图片11.png)
+![](assets/图片11.png)
 
-![](.\assets\图片12.png)
+![](assets/图片12.png)
 
 3).After editing, complete the inventory, enter "`: wq`"
 
@@ -204,7 +204,7 @@ And“-Wall” enables the GCC to generate more warnings:
 
 5).Run:`. / greet`
 
-![](.\assets\图片13.png)
+![](assets/图片13.png)
 
 6).Start the Gdb debugging: `gdb greet`
 
@@ -216,7 +216,7 @@ And“-Wall” enables the GCC to generate more warnings:
 
 10).View the breakpoint setting situation:`info breakpoints`
 
-![](.\assets\图片14.png)
+![](assets/图片14.png)
 
 11).Run the code: `run`
 
@@ -230,7 +230,7 @@ And“-Wall” enables the GCC to generate more warnings:
 
 17).Exit the GDB : `quit`
 
-![](.\assets\图片15.png)
+![](assets/图片15.png)
 
 ### （5）**The Use of Make Project Manager**
 
@@ -259,11 +259,11 @@ Step 1: Edit the Source Code
 1. - Enter the command `vi hello.c` to open or create the hello.c file.
    - In the Vi editor, enter the following C language code:
 
-​                               ![](.\assets\图片16.png)
+​                               ![](assets/图片16.png)
 
 1. - Press the "Esc" key to exit insert mode, then type “ `:wq` ” to save and exit the Vi editor.
 
- ![](.\assets\图片17.png)
+ ![](assets/图片17.png)
 
 Step 2: Manually Write the Makefile
 
@@ -273,7 +273,7 @@ Step 2: Manually Write the Makefile
    - In the Vi editor, enter the following content:
    - Save and exit the Vi editor.
 
-![](.\assets\图片18.png)
+![](assets/图片18.png)
 
 Step 3: Compile the Project Using Make
 
@@ -283,7 +283,7 @@ Step 3: Compile the Project Using Make
    - Observe the output to confirm whether the hello executable file and hello.o object file      were successfully generated.
    - Run the program by entering the command “`./hello`” and check if the output is “Hello, Make!.”
 
-![](.\assets\图片19.png)
+![](assets/图片19.png)
 
 Step 4: Use Automatic Generation Tools to Generate Makefile
 
@@ -291,7 +291,7 @@ Step 4: Use Automatic Generation Tools to Generate Makefile
 - Terminal input “`make`”, default execution of Makefile file 
 - Specify the execution of a makefile file
 
-![](.\assets\图片20.jpg)
+![](assets/图片20.jpg)
 
 ### **(6)** **Familiar with the CodeBlocks integrated development environment**
 
@@ -329,33 +329,33 @@ Code:: Blocks has powerful debugging capabilities built in to help you find and 
 
 **1)** **Create the file by clicking on File-> New-> File in the upper left corner**
 
-![](.\assets\图片21.png)
+![](assets/图片21.png)
 
 ##### 2) Select the category
 
-![](.\assets\图片22.png)
+![](assets/图片22.png)
 
-![](.\assets\图片23.png)
+![](assets/图片23.png)
 
 ##### 3) Name it and save it.
 
-![](.\assets\图片24.png)
+![](assets/图片24.png)
 
 ##### 4) Enter the code, and then save the Ctrl + S.
 
-![](.\assets\图片25.png)
+![](assets/图片25.png)
 
 ##### 5) Take a look at the key button functions, which can be compiled and then executed, or directly compiled + execution.
 
-![](.\assets\图片26.png)
+![](assets/图片26.png)
 
 ##### 6) An error message or warning will be displayed here after compilation
 
-![](.\assets\图片27.png)
+![](assets/图片27.png)
 
 ##### 7) Execution after compilation.
 
-![](.\assets\图片28.png)
+![](assets/图片28.png)
 
  ##  6.Thinking questions
 
