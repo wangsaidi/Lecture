@@ -44,6 +44,14 @@ group 6
 
 ![img](assets/5.1/4.jpg)
 
+_
+
+
+**_A related video demonstration can be viewed at [assets/5.1/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.1/shipin.mp4)_**
+
+_
+
+
 + ### Use of commands related to files and directories
 #### 1 .Query the /bin directory and see what commonly used command files are in the directory:
 
@@ -105,6 +113,14 @@ group 6
 
 ![img](assets/5.2/1726326917854.jpg)
 
+_
+
+
+**_A related video demonstration can be viewed at [assets/5.2/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.2/shipin.mp4)_**
+
+_
+
+
 + ### Use of commands related to Disk Management and maintenance
 #### Steps for using CD-ROM under Linux
 ##### Confirm the device file corresponding to the optical drive
@@ -146,6 +162,14 @@ group 6
 ##### Uninstall the USB flash drive
 `umount /mnt/usb`
 
+_
+
+
+**_A related video demonstration can be viewed at [assets/5.3/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.3/shipin.mp4)_**
+
+_
+
+
 + ### Use of system administration and setting commands
 
 
@@ -172,6 +196,15 @@ group 6
    `shutdown`
 
 ![img](assets/5.4/039dbaadfdad87c21086447547be1ef.png)
+
+
+_
+
+
+**_A related video demonstration can be viewed at [assets/5.4/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.4/shipin.mp4)_**
+
+_
+
 
 
 + ### Use of network-related commands
@@ -282,47 +315,67 @@ The result is shown in the figure
 
 ![img](./assets/5.5/-u.png)
 
+_
+
+
+**_A related video demonstration can be viewed at [assets/5.5/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.5/shipin.mp4)_**
+
+_
+
+
+
 
 + ### Use of the Compress Backup command
 #### ① Pack the/tmp directory into tmp.tar and place it in the/root directory.
 `tar cf /root/tmp.tar /tmp/*`
 
-![img](assets/5.6/bc283bf1263a2900d773ba6c8f5df5a.png)
+![img](assets/5.6/1.png)
 
 #### ② Compress and package the/tmp directory into tmp.tar.gz, and place it in the/root directory:
 `tar zcvf /root/tmp.tar.gz /tmp/*`
 
-![img](assets/5.6/056bddb912becce2bd44a2876160551.png)
+![img](assets/5.6/2.png)
+![img](assets/5.6/2.1.png)
+![img](assets/5.6/2.2.png)
 
 #### ③ Compare tmp.tar and tmp.tar.gz size:
 `1s -1 /root/tmp.tar /root/tmp.tar.gz`
 
-![img](assets/5.6/7bf040d3ad675c6f99a516fa05ca283.png)
+![img](assets/5.6/3.png)
 
 #### ④ Do not unpack, only view the contents of the compressed file tmp.tar.gz:
 `tar ztf /root/tmp.tar.gz`
 
-![img](assets/5.6/0d335814469034f3f56e5b4fefac8b8.png)
+![img](assets/5.6/4.png)
+![img](assets/5.6/4.1.png)
+![img](assets/5.6/4.2.png)
 
 #### ⑤ Extract the contents of tmp.tar.gz to the/tmp/myshare directory:
 `tar zxvf /root/tmp.tar.gz -C /tmp/myshare/`
 
-![img](assets/5.6/a66fbfb76bcf9dfb839e7cb256555b6.png)
+![img](assets/5.6/5.png)
 
 #### ⑥ Compress each file in the/tmp directory into. gz format:
 `gzip *`
 
-![img](assets/5.6/9c79e17df1062f399a14b6ca22420e1.png)
+![img](assets/5.6/6.png)
 
 #### ⑦ List the information of each. gz compressed file in detail, without decompression:
 `gzip-1 *`
 
-![img](assets/5.6/a09baf8cd82c22d4d5861dc74ff83b8.png)
+![img](assets/5.6/7.png)
 #### ⑧ Extract each compressed. gz file and provide detailed information:
 
 `gzip-dv *`
 
-![img](assets/5.6/dc2d50106bcdb5e6f54d232b47f0358.png)
+![img](assets/5.6/8.png)
+
+_
+
+
+**_A related video demonstration can be viewed at [assets/5.6/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.6/shipin.mp4)_**
+
+_
 
 
 ## Questions
@@ -423,5 +476,15 @@ _
 ### Lorinda0719-段奕铭
 + Modification of document format and content
 + Recording of experimental videos
-### 王众
+### z4459-王众
 + Recording of experimental videos
+
+_
+
+_
+
+_
+
++ ### 原仓库链接请点[这里](https://github.com/Bier2004/common-commands-in-Linux)
++ ### Please click [here](https://github.com/Bier2004/common-commands-in-Linux) to the original repository
++ [https://github.com/Bier2004/common-commands-in-Linux](https://github.com/Bier2004/common-commands-in-Linux)

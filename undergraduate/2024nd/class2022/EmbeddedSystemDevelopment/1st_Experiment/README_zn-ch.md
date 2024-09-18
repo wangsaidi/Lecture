@@ -47,6 +47,13 @@
 
 ![img](assets/5.1/4.jpg)
 
+_
+
+**_相关视频演示可查看 [assets/5.1/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.1/shipin.mp4)_**
+
+_
+
+
 + ### 与文件和目录相关的命令的使用
 
 #### 1. 查询 /bin 目录，查看目录中有哪些常用命令文件：
@@ -109,6 +116,13 @@
 
 ![img](assets/5.2/1726326917854.jpg)
 
+_
+
+**_相关视频演示可查看 [assets/5.2/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.2/shipin.mp4)_**
+
+_
+
+
 + ### 磁盘管理和维护命令的使用
 
 #### 在 Linux 下使用光驱的步骤
@@ -159,6 +173,13 @@
 
 `umount /mnt/usb`
 
+_
+
+**_相关视频演示可查看 [assets/5.3/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.3/shipin.mp4)_**
+
+_
+
+
 + ### 系统管理和设置命令的使用
 
 #### 1. 查看系统中的所有进程
@@ -184,6 +205,13 @@
 `shutdown`
 
 ![img](assets/5.4/039dbaadfdad87c21086447547be1ef.png)
+
+_
+
+**_相关视频演示可查看 [assets/5.4/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.4/shipin.mp4)_**
+
+_
+
 
 + ### 网络相关命令的使用
 
@@ -303,55 +331,72 @@
 
 ![img](./assets/5.5/-u.png)
 
+_
+
+**_相关视频演示可查看 [assets/5.5/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.5/shipin.mp4)_**
+
+_
+
+
 + ### 压缩备份命令的使用
 
 #### ① 将 /tmp 目录打包为 tmp.tar 并放置在 /root 目录中。
 
 `tar cf /root/tmp.tar /tmp/*`
 
-![img](assets/5.6/bc283bf1263a2900d773ba6c8f5df5a.png)
+![img](assets/5.6/1.png)
 
 #### ② 将 /tmp 目录压缩并打包为 tmp.tar.gz，放置在 /root 目录中：
 
 `tar zcvf /root/tmp.tar.gz /tmp/*`
 
-![img](assets/5.6/056bddb912becce2bd44a2876160551.png)
+![img](assets/5.6/2.png)
+![img](assets/5.6/2.1.png)
+![img](assets/5.6/2.2.png)
 
 #### ③ 比较 tmp.tar 和 tmp.tar.gz 的大小：
 
 `ls -l /root/tmp.tar /root/tmp.tar.gz`
 
-![img](assets/5.6/7bf040d3ad675c6f99a516fa05ca283.png)
+![img](assets/5.6/3.png)
 
 #### ④ 不解压，仅查看压缩文件 tmp.tar.gz 的内容：
 
 `tar ztf /root/tmp.tar.gz`
 
-![img](assets/5.6/0d335814469034f3f56e5b4fefac8b8.png)
+![img](assets/5.6/4.png)
+![img](assets/5.6/4.1.png)
+![img](assets/5.6/4.2.png)
 
 #### ⑤ 将 tmp.tar.gz 的内容解压到 /tmp/myshare 目录中：
 
 `tar zxvf /root/tmp.tar.gz -C /tmp/myshare/`
 
-![img](assets/5.6/a66fbfb76bcf9dfb839e7cb256555b6.png)
+![img](assets/5.6/5.png)
 
 #### ⑥ 将 /tmp 目录中的每个文件压缩为 .gz 格式：
 
 `gzip *`
 
-![img](assets/5.6/9c79e17df1062f399a14b6ca22420e1.png)
+![img](assets/5.6/6.png)
 
 #### ⑦ 详细列出每个 .gz 压缩文件的信息，无需解压：
 
 `gzip -l *`
 
-![img](assets/5.6/a09baf8cd82c22d4d5861dc74ff83b8.png)
+![img](assets/5.6/7.png)
 
 #### ⑧ 解压每个 .gz 压缩文件并提供详细信息：
 
 `gzip -dv *`
 
-![img](assets/5.6/dc2d50106bcdb5e6f54d232b47f0358.png)
+![img](assets/5.6/8.png)
+_
+
+**_相关视频演示可查看 [assets/5.6/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.6/shipin.mp4)_**
+
+_
+
 
 ## 问题
 
@@ -417,7 +462,17 @@
 
 **_归档：_** _涉及将多个文件或目录合并成一个文件。常用的工具是 tar。归档后的文件大小可能不变，但便于传输和存储。也就是说，归档文件的大小可能等于它们替代的各个文件的总和。常见的归档格式包括 .tar（磁带归档）。_
 
-# 小组成员及其负责部分
+_
+
+_
+
+_
+
+_
+
+_
+
+# 小组成员及分工
 
 ### zrz181-郑润泽
 
@@ -463,6 +518,15 @@
 + 文档格式和内容的修改
 + 实验视频的录制
 
-### 王众
+### z4459-王众
 
 + 实验视频的录制
+
+_
+
+_
+
+_
+
++ ### 原仓库链接请点[这里](https://github.com/Bier2004/common-commands-in-Linux)
++ [https://github.com/Bier2004/common-commands-in-Linux](https://github.com/Bier2004/common-commands-in-Linux)
