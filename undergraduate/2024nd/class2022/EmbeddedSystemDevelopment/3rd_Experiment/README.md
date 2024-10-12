@@ -9,6 +9,11 @@ group 5
 + Hardware:PC machine
 
 + Software:VietualBox virtual machine and Ubuntu operating system.
+
+## Experimental Video Tutorial
+
+ [Embedded Linux Experiment III Video](https://tingwu.aliyun.com/doc/transcripts/wg57n33gk5xjnkr3?sl=1#)
+
 ## Experiment pre-study requirements
 + Read Section 2.7 
 
@@ -320,5 +325,4 @@ main()
 #### 张赛博:Two people are responsible for the recording of the video.
 #### 刘明庆:Two people are responsible for the recording of the video.
 #### 王佳慧:Help everyone and perfect the details
-
 
