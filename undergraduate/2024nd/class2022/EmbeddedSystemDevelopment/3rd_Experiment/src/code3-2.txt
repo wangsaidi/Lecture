@@ -1,0 +1,26 @@
+# include<stdio.h>
+main()
+{   int p,i;
+    while((p= fork())==-1); //创建子进程直至成功
+    if(p>0)//返回父进程
+    {
+    wait(0);
+    //父进程等待子进程终止
+    for(i=0;i<6;i++)
+    {
+        printf("Hello,this is a parent process! ID= n",getpid());
+        sleep(5);
+        //延时5s
+    }
+    }
+    else
+    {
+        //返回子进程
+        for(i=0;i<6;i++)
+        {
+            printf("Hello,this is a child process! ID= n",getpid());
+            sleep(5);
+        }
+        exit(0);//子进程向父进程发终止信号
+    }
+}

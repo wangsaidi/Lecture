@@ -1,0 +1,45 @@
+# include<unistd.h>
+# include<sys/types.h>
+# include<sys/stat.h>
+# include<fcntl.h>
+# include<stdlib. h>
+# include<stdio.h>
+#include<string.h>
+int main(void)
+{
+   char * buf ="Hello! I'm writing to this file!";
+   char buf_r[11];
+   int fd,size,len;
+   len = strlen(buf);
+   buf_r[10] =\o';/* 首先调用 open 函数，并指定相应的权限/
+   if((fd = open("hello.c",0_CREAT | 0_TRUNC|0_RDMR,0666))<0)
+   {
+      perror("open:");
+      exit(1);
+   }
+   else
+    printf("open and create file:hello.c td OK\n",fd);/* 调用 write 函数，将 buf 中的内容写入到打开的文件中*/
+   if((size = write( fd, buf,len))<0)
+   {
+      perror("write:");
+      exit(1);
+   }
+   else
+   printf("Write:号 s OK\n",buf);
+   /* 调用lseek 函数将文件指针移动到文件起始，并读出文件中的10字节 */
+   lseek(fd,0,SEEK_SET);
+   if((size = read( fd, buf_r,10))<0)
+   {
+      perror("read:");
+      exit(1);
+   }
+   else
+   printf(" read form file:s OK\n",buf_r);
+   if(close(fd)<0)
+   {
+      perror("close:");
+      exit(1);
+   }
+   else
+      printf("Close hello.c OK\n");return 0;
+}
