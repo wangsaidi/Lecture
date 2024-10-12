@@ -1,0 +1,64 @@
+/*写共享内存程序mem_write.c*/
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include < sys/shm.h>
+#include<stdio.h>
+# include <stdlib.h>
+#include < sys/types.h>
+# define SHMSZ 27
+int main(void)
+{
+char c;
+int shmid;
+key_t key;
+char * shm,* s;
+key =1234;
+if((shmid = shmget(key,SHMSZ,IPC_CREAT| 0666))< 0)
+{
+perror(" shmget error");
+exit(0);
+)
+if((shm = shmat(shmid,NULL,0))==(char *)-1)
+{
+perror(" shmat error");
+exit(0);
+}
+s = shm;
+for(c ='a';c<='z';c++)
+*s++ = C;
+*s = NULL;
+printf("init over!\n");
+while(*shm !='*')
+sleep(1);
+exit(0);
+}
+/*读共享内存程序mem_read.c*/
+#include< sys/types.h>
+#include < sys/ipc.h>
+#include< sys/shm.h>
+#include <stdlib.h>
+#include<string.h>
+#include<stdio.h>
+# define SHMSZ 27
+int main(void)
+{
+int shmid;
+key_t key;
+char * shm,*s;
+key = 1234;
+if((shmid = shmget(key,SHMSz,0666))< 0)
+{
+perror(" shmget error! ");
+exit(0);
+}
+if((shm =shmat(shmid,NULL,0))==(char *)-1)
+{
+perror(" shmat error! ");
+exit(0);
+}
+for(s = shim; *s != NULL; s++)
+putchar(*s);
+putchar("\n');
+*shm = '*';
+exit(0);
+}
