@@ -14,9 +14,9 @@
 
 ## Video Tutorial
 
-[{Embedded Linux Qt Development=Signals and Slots Linux Lab}](https://www.bilibili.com/video/BV1kb1oYJEnL?vd_source=96f5a31680137ac4bd3f08e085e51241)
+[Embedded Linux Qt Development=Signals and Slots Linux Lab](https://www.bilibili.com/video/BV1kb1oYJEnL?vd_source=96f5a31680137ac4bd3f08e085e51241)
 
-[{Experiment Application Part=Image Switcher}](https://github.com/wangsaidi/Lecture/blob/main/undergraduate/2024nd/class2022/EmbeddedSystemDevelopment/6th_Experiment)
+[Experiment Application Part=Image Switcher](https://tingwu.aliyun.com/doc/transcripts/p7g39572kw86qz65?sl=1#)
 
 ## Install Qt
 

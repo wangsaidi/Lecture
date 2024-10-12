@@ -16,7 +16,7 @@
 
 [嵌入式Linux Qt开发：信号与槽 Linux实验课](https://www.bilibili.com/video/BV1kb1oYJEnL?vd_source=96f5a31680137ac4bd3f08e085e51241)
 
-[实验发挥部分：图片切换器]()
+[实验发挥部分：图片切换器](https://tingwu.aliyun.com/doc/transcripts/p7g39572kw86qz65?sl=1#)
 
 # 安装Qt
 
@@ -711,7 +711,7 @@ void MainWindow::on_pushButton_clicked()
 | 秦晨阳 | √          | √       | √            | √         | √      | √        | √        |
 | 孙一康 | √          | √       | √            |           |        |          |          |
 | 高佳鑫 | √          | √       | √            | √         | √      | √        | √        |
-| 赵晨然 | √          | √       | √            | √         | √      | √        |          |
+| 赵晨然 | √          | √       | √            | √         | √      | √        | √        |
 
 实验发挥部分：
 
@@ -723,3 +723,5 @@ void MainWindow::on_pushButton_clicked()
 - 陶霖：多按钮颜色切换
 
 - 秦晨阳：定时器倒计时
+
+- 赵晨然：倒计时停止按钮
