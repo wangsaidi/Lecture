@@ -1,0 +1,9 @@
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/ButtonCounter.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/edit_cache.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/rebuild_cache.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/list_install_components.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/install.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/install/local.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/install/strip.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/ButtonCounter_autogen_timestamp_deps.dir
+/home/qcy/ButtonCounter/build/Desktop_Qt_6_7_3-Debug/CMakeFiles/ButtonCounter_autogen.dir
