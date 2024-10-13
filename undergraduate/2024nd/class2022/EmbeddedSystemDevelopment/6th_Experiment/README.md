@@ -725,12 +725,12 @@ When the number on **lcdNumber** jumps to 0, a "Time up" message pops up to info
 | Tao Lin | √ | √ | √ | √ | √ | √ | √ |
 | Xi Peidong | √ | √ | √ | √ | √ | √ | √ |
 | Chen Zhuo | √ | √ | √ |  |  |  |  |
-| Li Haoze | √ | √ | √ |  | √ | √ |  |
+| Li Haoze | √ | √ | √ | √ | √ | √ |  |
 | Zhou Jingwen | √ | √ | √ | √ | √ | √ | √ |
 | Qin Chenyang | √ | √ | √ | √ | √ | √ | √ |
 | Sun Yikang | √ | √ | √ |  |  |  |  |
 | Gao Jiaxin | √ | √ | √ | √ | √ | √ | √ |
-| Zhao Chenran | √ | √ | √ | √ | √ | √ |  |
+| Zhao Chenran | √ | √ | √ | √ | √ | √ | √ |
 
 {Experiment Contribution=null}
 
